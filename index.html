@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This file is the Vite entry only: run `npm install` then `npm run dev` and open the printed URL. Opening this HTML file directly in a browser will not run the React app. For an instant layout check, open `preview.html` in the project root. -->
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yagna Manasa Boyapati — Full Stack & AI developer, Ph.D. candidate in Computer Science at University of Cincinnati."
+    />
+    <title>Yagna Manasa Boyapati | Full Stack & AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p
+      id="open-file-hint"
+      style="
+        display: none;
+        margin: 0;
+        padding: 1rem 1.25rem;
+        background: #faf8f5;
+        color: #1e293b;
+        font-family: system-ui, sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        border-bottom: 2px solid rgba(13, 148, 136, 0.35);
+      "
+    >
+      <strong>This page is blank because it was opened as a file.</strong>
+      Use one of these instead:
+      <br />• Double-click <code style="background: #e7e5e0; padding: 0.1rem 0.35rem; border-radius: 0.25rem">start_preview.bat</code>
+      (uses Python; no Node.js), then open <code style="background: #e7e5e0; padding: 0.1rem 0.35rem; border-radius: 0.25rem">http://127.0.0.1:8765/preview.html</code>
+      <br />• Or open <code style="background: #e7e5e0; padding: 0.1rem 0.35rem; border-radius: 0.25rem">preview.html</code> directly — it works offline.
+      <br />• For the full React site: install <a href="https://nodejs.org/" style="color: #0d9488">Node.js</a>, then in this folder run
+      <code style="background: #e7e5e0; padding: 0.1rem 0.35rem; border-radius: 0.25rem">npm install</code> and
+      <code style="background: #e7e5e0; padding: 0.1rem 0.35rem; border-radius: 0.25rem">npm run dev</code>.
+    </p>
+    <script>
+      if (location.protocol === "file:") {
+        var h = document.getElementById("open-file-hint");
+        if (h) h.style.display = "block";
+      }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
