@@ -122,6 +122,7 @@ const activityItems = [
 ];
 
 const projectImages = [
+  "/project-pacr-security.svg",
   "/project-federated-llm.svg",
   "/project-healthcare-chatbot.svg",
   "/project-caregiver-app.svg",

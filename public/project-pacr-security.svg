@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">PACR secure runtime defense layer</title>
+  <desc id="desc">Abstract command approval pipeline with policy checks, audit logs, and blocked unsafe execution.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#0f2837"/>
+      <stop offset="1" stop-color="#1f1b43"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15 0 0 0 0 0.83 0 0 0 0 0.82 0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="520" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#67e8f9" stroke-width="1">
+    <path d="M0 92h960M0 184h960M0 276h960M0 368h960M0 460h960"/>
+    <path d="M120 0v520M240 0v520M360 0v520M480 0v520M600 0v520M720 0v520M840 0v520"/>
+  </g>
+  <circle cx="760" cy="108" r="150" fill="#f59e0b" opacity="0.08"/>
+  <circle cx="190" cy="420" r="180" fill="#22d3ee" opacity="0.09"/>
+  <g filter="url(#glow)">
+    <path d="M478 80 656 148v121c0 103-70 153-178 190-108-37-178-87-178-190V148z" fill="#061827" stroke="url(#cyan)" stroke-width="8"/>
+    <path d="M478 124 614 176v92c0 76-48 113-136 146-88-33-136-70-136-146v-92z" fill="#0b2433" stroke="#164e63" stroke-width="4"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M422 278h112" stroke="#67e8f9" stroke-width="18"/>
+    <path d="m458 310-46-46 26-26 20 20 60-60 26 26z" fill="#2dd4bf" stroke="#ccfbf1" stroke-width="8"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800">
+    <text x="478" y="190" text-anchor="middle" fill="#ecfeff" font-size="54">PACR</text>
+    <text x="478" y="224" text-anchor="middle" fill="#7dd3fc" font-size="22" letter-spacing="3">POLICY CHECK</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="22" font-weight="700">
+    <rect x="76" y="126" width="226" height="72" rx="16" fill="#020617" opacity="0.82" stroke="#38bdf8" stroke-opacity="0.42"/>
+    <text x="108" y="170" fill="#cffafe">agent command</text>
+    <path d="M302 162h76" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+    <path d="m370 146 18 16-18 16" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="664" y="126" width="220" height="72" rx="16" fill="#020617" opacity="0.82" stroke="#f59e0b" stroke-opacity="0.5"/>
+    <text x="696" y="170" fill="#ffedd5">exec approval</text>
+    <path d="M584 162h80" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <path d="m656 146 18 16-18 16" fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="86" y="334" width="230" height="64" rx="16" fill="#020617" opacity="0.78" stroke="#22c55e" stroke-opacity="0.42"/>
+    <text x="116" y="375" fill="#bbf7d0">trusted: allow</text>
+    <rect x="644" y="334" width="230" height="64" rx="16" fill="#020617" opacity="0.78" stroke="#ef4444" stroke-opacity="0.55"/>
+    <text x="674" y="375" fill="#fecaca">risky: block</text>
+    <path d="M360 354c42 38 82 54 118 54s76-16 118-54" stroke="#67e8f9" stroke-width="4" stroke-dasharray="10 12" opacity="0.75"/>
+  </g>
+  <g fill="#e0f2fe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" opacity="0.88">
+    <text x="374" y="466">decision log</text>
+    <text x="498" y="466">tool scope</text>
+    <text x="612" y="466">runtime guard</text>
+  </g>
+</svg>

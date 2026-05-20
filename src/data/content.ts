@@ -97,6 +97,27 @@ export const researchThemes = [
 
 export const projects = [
   {
+    name: "PACR: Secure runtime defense layer for OpenClaw AI agents",
+    description:
+      "Ongoing research project securing OpenClaw against prompt injection and unsafe tool execution. Built a PACR security module, tested trusted and malicious scenarios, added decision logging, and integrated policy checks into the exec approval runtime path to block risky commands before execution.",
+    tech: [
+      "TypeScript",
+      "Python",
+      "Node.js",
+      "pnpm",
+      "Linux",
+      "Shell scripting",
+      "OpenClaw",
+      "LLM agents",
+      "Prompt injection defense",
+      "Runtime security",
+      "Policy-based access control",
+      "Secure tool execution",
+      "Audit logging",
+      "Git",
+    ],
+  },
+  {
     name: "Federated multi-LLM cognitive diagnosis",
     description:
       "Multi-agent framework where multiple large language models collaborate on cognitive diagnosis without sharing raw patient data—privacy-preserving heterogeneous federated inference.",
@@ -160,12 +181,25 @@ export const skillGroups = [
       "Generative AI APIs",
       "LoRA Fine-Tuning",
       "Differential Privacy",
+      "LLM Agents",
+    ],
+  },
+  {
+    label: "Agent Security",
+    items: [
+      "OpenClaw",
+      "Prompt Injection Defense",
+      "Runtime Security",
+      "Policy-Based Access Control",
+      "Secure Tool Execution",
+      "Audit Logging",
     ],
   },
   {
     label: "Developer Tools",
     items: [
       "Git",
+      "pnpm",
       "VS Code",
       "Visual Studio",
       "PyCharm",
@@ -183,7 +217,7 @@ export const skillGroups = [
   },
   {
     label: "Cloud & DevOps",
-    items: ["AWS", "Google Cloud Platform", "Docker", "Kubernetes", "Routers", "VPNs", "Servers", "Switches", "Virtualization"],
+    items: ["AWS", "Google Cloud Platform", "Docker", "Kubernetes", "Linux", "Shell scripting", "Routers", "VPNs", "Servers", "Switches", "Virtualization"],
   },
   {
     label: "Databases",
