@@ -46,7 +46,7 @@ export const experience = [
   {
     title: "Teaching & Laboratory Assistant",
     org: "University of Cincinnati",
-    period: "Aug. 2025 - Present",
+    period: "Aug. 2025 - May 2026",
     bullets: [
       "Supporting the Digital Design course with labs, demos, and student mentoring.",
     ],
